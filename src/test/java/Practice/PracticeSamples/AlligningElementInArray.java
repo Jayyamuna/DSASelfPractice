@@ -48,9 +48,6 @@ public class AlligningElementInArray {
 				 arr[i]=arr[j];
 				 arr[j]=temp;
 				 j++;
-				
-				
-				
 			}
 		}
 		System.out.println(Arrays.toString(arr));

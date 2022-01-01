@@ -30,7 +30,7 @@ public class ReverseString {
 		}
 		@Test
 	    public void reverseEmptyString(){
-	        Assert.assertEquals("", reverseString(""));
+	        Assert.assertEquals("121", reverseString("121"));
 	    }
 		@Test(expected=RuntimeException.class)
 	    public void reverseNullString(){

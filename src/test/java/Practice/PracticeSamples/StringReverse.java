@@ -20,7 +20,7 @@ public static String revString(String input) {
 
 @Test
 public void testString() {
-	Assert.assertEquals("anumaY",revString("Yam una"));
+	Assert.assertEquals("amanaPlanacanalpanamA",revString("A man, a plan, a canal: Panama"));
 }
 @Test
 public void testTwo() {
